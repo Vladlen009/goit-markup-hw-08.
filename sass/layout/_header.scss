@@ -1,3 +1,118 @@
+.header-nav{
+    display: none;
+}
+
+.header-contact {
+    display: none;
+}
+
+.header {
+    position: relative;
+    background-color: aqua;
+    
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mobile-menu-btn {
+    padding-top: 10px;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    line-height: 0;
+}
+
+.mobile-menu__close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    line-height: 0;
+
+}
+
+.mobile-menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    background-color: bisque;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 50ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mobile-menu__container{
+    position: relative;
+}
+
+.mobile-menu.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+
+  .header-list {
+      padding-top: 48px;
+  }
+
+.logo-header {
+  display: inline-block;
+  
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+  color: var(--color-hover);
+
+  margin-right: 93px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+
+}
+
+.logo-dark {
+  color: var(--main-color);
+}
+
+
+
+// 768px +
+@media screen and (min-width: 768px) {
+    .header-nav{
+        display: block;
+    }
+    
+    .header-contact {
+        display: block;
+    }
+
+    .mobile-menu-btn{
+        display: none;
+    }
+    
+    .header-nav {
+        display: flex;
+        align-items: center;
+    }
+    
+    .header-list{
+        display: flex;
+    }
+    
+
+    
 // .header {
 //   background-color: var(--header-background);
 
@@ -33,8 +148,7 @@
 //   color: var(--color-hover);
 
 //   margin-right: 93px;
-//   padding-top: 24px;
-//   padding-bottom: 24px;
+
 // }
 
 // .logo-dark {
@@ -133,9 +247,4 @@
 //    &:focus {
 //      color: var(--color-hover);
 //   }
-// }
-
-
-  
-  
-  
+}
