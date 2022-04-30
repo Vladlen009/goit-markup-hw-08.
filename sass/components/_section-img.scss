@@ -8,13 +8,15 @@
   }
   
   .section-img {
-    width: 270px;
     height: 120px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 4px;
-    margin-bottom: 30px;
+    
+    &:not(:last-child) {
+      margin-bottom: 30px;
+    }
   
   
     background-color: var(--background-content);
