@@ -6,22 +6,24 @@
 // 480px+
 @media screen and (min-width: 480px) {
   .container {
-    width: 480px;
-    margin-left: auto;
-    margin-right: auto;
+          width: 480px;
+          margin-left: auto;
+          margin-right: auto;
   }
 }
 
 // 768px+
 @media screen and (min-width: 768px) {
   .container {
-    width: 768px;
+          width: 768px;
   }
 }
 
 // 1200px+
 @media screen and (min-width: 1200px) {
   .container {
-    width: 1200px;
+          width: 1200px;
   }
 }
+
+
