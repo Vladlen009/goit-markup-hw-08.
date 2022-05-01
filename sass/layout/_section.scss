@@ -1,48 +1,9 @@
-// .section {
-//     padding-top: 94px;
-//     padding-bottom: 94px;
-//     background-color: var(--section-background);
-//   }
-  
-//   .section-list {
-//     display: flex;
-//   }
-
-//   .section-pretitle {
-//     font-weight: 700;
-//     font-size: 14px;
-//     line-height: 1.14;
-//     letter-spacing: 0.03em;
-//     text-transform: uppercase;
-  
-//     color: var(--main-color);
-  
-//     margin-bottom: 10px;
-//   }
-  
-//   .section-text {
-//     font-weight: 400;
-//     font-size: 14px;
-//     line-height: 1.71;
-//     letter-spacing: 0.03em;
-  
-//     color: var(--text-color);
-//   }
-  
-//   .section-list__item {
-//     width: 270px;
-//     justify-content: center;
-
-//      &:not(:last-child) {
-//        margin-right: 30px; /*?*/
-//     }
-//   }
-
 .section {
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: var(--section-background);
   }
+
 
 .section-pretitle {
   font-weight: 700;
@@ -63,10 +24,6 @@
     letter-spacing: 0.03em;
       
     color: var(--text-color);
-    
-    &:not(:last-child) {
-      margin-bottom: 30px;
-    }
   }
 
   // 0px - 767px
@@ -74,42 +31,29 @@
   .section-pretitle {
     text-align: center;
   }
+
+  .section-list__item:not(:last-child) {
+    margin-bottom: 30px;
+  }
 }
 
 // 768px+
 @media screen and (min-width:768px) {
+  .section-list__item {
+    flex-basis: calc((100% - 30px) / 2);
+  }
+  
   .section-list {
     display: flex;
-  }
-
-  // .section-list__item {
-  //   width: 354px;
-  // }
-}
-
-// 
-@media screen and (max-width:1199px) {
-  .section-list {
     flex-wrap: wrap;
+    gap: 30px;
   }
-  .section-list__item {
-    // width: 354px;
-    margin-right: 30px;
-    margin-bottom: 30px;
-
-    &:nth-child(2n) {
-      margin-right: 0;
-   }
-
-   &:nth-last-child(-n + 2) {
-    margin-bottom: 0;
 }
+
+
+@media screen and (min-width:1199px) {
+  .section-list__item {
+    flex-basis: calc((100% - 120px) / 4);
   }
 }
       
-    // 1200px +
-@media screen and (min-width:1200px) {
-  .section-list__item:not(:last-child) {
-    margin-right: 30px;
-  }
-}
