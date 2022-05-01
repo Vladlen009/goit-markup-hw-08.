@@ -44,14 +44,6 @@
     background-color: var(--section-background);
   }
 
-.section-list__item {
-  width: 450px;
-
-  &:not(:last-child) {
-    margin-bottom: 30px;
-  }
-}
-
 .section-pretitle {
   font-weight: 700;
   font-size: 14px;
@@ -90,9 +82,9 @@
     display: flex;
   }
 
-  .section-list__item {
-    width: 354px;
-  }
+  // .section-list__item {
+  //   width: 354px;
+  // }
 }
 
 // 
