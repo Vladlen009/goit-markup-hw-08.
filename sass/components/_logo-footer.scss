@@ -2,16 +2,20 @@
     color:var(--footer-color-logo);
   }
   
-  .logo-footer {
-    display: inline-block;
+.logo-footer {
+  /*display:inline-block;*/
+  display: block;
     
-    font-family: Raleway;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-align: center;
   
-    color: var(--color-hover);
+  color: var(--color-hover);
     
-    margin-bottom: 20px;
+  margin-bottom: 20px;
+  justify-content: center;
   }
+ 
