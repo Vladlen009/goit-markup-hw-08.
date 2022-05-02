@@ -11,7 +11,7 @@
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  text-align: center;
+
   
   color: var(--color-hover);
     
@@ -19,3 +19,8 @@
   justify-content: center;
   }
  
+  @media screen and (max-width: 1199px) {
+    .logo-footer {
+      text-align: center;
+  } 
+}
