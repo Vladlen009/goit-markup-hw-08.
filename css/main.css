@@ -1038,6 +1038,10 @@ img {
   .client-item {
     flex-basis: calc((100% - 120px) / 3);
   }
+  .client-link {
+    width: 226px;
+    height: 92px;
+  }
 }
 
 @media screen and (max-width: 1199px) {
@@ -1051,6 +1055,10 @@ img {
 @media screen and (min-width: 1200px) {
   .client-list {
     gap: 30px;
+  }
+  .client-link {
+    width: 170px;
+    height: 92px;
   }
 }
 

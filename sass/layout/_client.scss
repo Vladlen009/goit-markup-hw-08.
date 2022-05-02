@@ -113,6 +113,10 @@ margin-bottom: 30px;
   .client-item {
     flex-basis: calc((100% - 120px) / 3);
   }
+  .client-link {
+    width: 226px;
+    height: 92px;
+  }  
 }
 
 @media screen and (max-width:1199px) {
@@ -127,6 +131,11 @@ margin-bottom: 30px;
   .client-list {
   gap: 30px;
   }
+
+  .client-link {
+    width: 170px;
+    height: 92px;
+  } 
 }
 // .client-item{
 //   flex-basis: calc((100% - 30px) / 2);
