@@ -95,7 +95,7 @@
   width: 100%;
   height: 50px;
   padding-left: 16px;
-  margin-right: 12px;
+  // margin-right: 12px;
   
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
@@ -154,6 +154,14 @@
   margin-top: 20px;
   }
   
-  /*+*/.subscribe-icon {
-    margin-left: 10px;
+.subscribe-icon {
+   margin-left: 10px;
+}
+
+@media screen and (min-width: 480px) {
+  .subscribe-input {
+    width: 450px;
+    display: inline;
   }
+}
+

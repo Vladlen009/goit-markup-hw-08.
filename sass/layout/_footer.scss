@@ -203,13 +203,16 @@ margin-bottom: 20px;
   
   color: var(--color-title);
   
-  margin-bottom: 9px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   &:hover,
   &:focus {
      color: var(--color-hover)
   }
+  
+  &:not(:last-child) {
+    margin-right: 8px;
+ }
 }
 
 .footer-link-tel {
@@ -249,4 +252,40 @@ margin-bottom: 20px;
 
 .footer-network-icon {
   fill: currentColor;
+}
+
+@media screen and (max-width: 767px) {
+  .footer-address {
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer-container-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+  }
+
+  .footer-address {
+    margin-right: 165px;
+  }
+}
+
+.footer-title{
+  margin-top: 0;
+}
+
+
+
+@media screen and (min-width: 1200px) {
+    .footer-container {
+    display: flex;
+    align-items: baseline;
+  
+  }
+
+    .footer-address {
+    margin-right: 70px;
+  }
 }
