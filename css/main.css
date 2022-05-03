@@ -628,6 +628,10 @@ img {
   align-items: center;
 }
 
+.header {
+  border: 1px solid #ECECEC;
+}
+
 @media screen and (max-width: 767px) {
   .header-list {
     display: none;
@@ -1396,6 +1400,9 @@ img {
     display: flex;
     flex-wrap: wrap;
   }
+  .tehno-krak {
+    margin-bottom: 36px;
+  }
 }
 
 @media screen and (max-width: 1199px) {
@@ -1418,6 +1425,9 @@ img {
   }
   .navigation-item:nth-last-child(-n + 3) {
     margin-bottom: 0;
+  }
+  .navigation-item .tehno-krak {
+    margin-bottom: 0px;
   }
 }
 /*# sourceMappingURL=main.css.map */
