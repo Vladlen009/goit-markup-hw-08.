@@ -196,7 +196,7 @@ margin-bottom: 20px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   
-  color: var(--color-title);
+  color: rgba(255, 255, 255, 0.6);
   
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -270,9 +270,9 @@ margin-bottom: 20px;
     text-align: center;
   }
 
-    .footer-item:not(:last-child) {
-      margin-right: 8px;
-   }
+  //   .footer-item:not(:last-child) {
+  //     margin-right: 8px;
+  //  }
 
    .footer-container-wrapper {
     margin-bottom: 60px;
