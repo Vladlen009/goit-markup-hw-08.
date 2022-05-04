@@ -199,32 +199,27 @@ margin-bottom: 20px;
   color: var(--color-title);
   
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-  &:hover,
-  &:focus {
-     color: var(--color-hover)
-  }
-  
-  
 }
 
-.footer-link-tel {
-  color: rgba(255, 255, 255, 0.6);
 
-  &:hover,
-  &:focus {
-    color: var(--color-hover);
-  }
-}
+// .footer-link-tel {
+//   color: rgba(255, 255, 255, 0.6);
 
-.footer-link-mail {
-  color: rgba(255, 255, 255, 0.6);
+//   &:hover,
+//   &:focus {
+//     color: var(--color-hover);
+//   }
+// }
 
-  &:hover,
-  &:focus {
-    color: var(--color-hover);
-  }
-}
+// .footer-link-mail {
+//   color: rgba(255, 255, 255, 0.6);
+
+//   &:hover,
+//   &:focus {
+//     color: var(--color-hover);
+//   }
+// }
+
 .footer-network-link {
   width: 44px;
   height: 44px;
@@ -237,10 +232,7 @@ margin-bottom: 20px;
   color: var(--color-title);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-   &:hover,
-   &:focus {
-     background-color: var(--color-hover);
-  }
+  
 }
 
 .footer-network-icon {
