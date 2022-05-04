@@ -207,7 +207,7 @@
   }
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .content-item:nth-child(2n) {
     margin-left: 30px;
    }
@@ -215,7 +215,9 @@
    .content-item:nth-child(-n+2) {
      margin-bottom: 30px;
    }
+}
 
+@media screen and (max-width: 1199px) {
    .content-title {
     font-size: 28px;
     line-height: 1.18;

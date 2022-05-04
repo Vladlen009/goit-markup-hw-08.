@@ -23,6 +23,12 @@
 //     padding-bottom: 26px;
 // }
 // }
+@media screen and (max-width:767px) {
+  .logo-header {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+}
 
 // 1200px +
 @media screen and (min-width:1200px) {
