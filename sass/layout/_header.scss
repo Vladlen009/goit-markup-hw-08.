@@ -119,10 +119,11 @@
     letter-spacing: 0.02em;
   
     color: #757575;
-  
-    padding-bottom: 64px;
   }
-  
+  .mobile-menu__contact-list {
+    margin-bottom: 64px;
+  }
+
   .mobile-menu__contact-link {
     color: #757575;
   
@@ -151,20 +152,20 @@
   }
   
 .mobile-menu__social-item:not(:last-child) {
-  position: relative; 
+  position: relative;
+  &::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -10px;
+    width: 1px;
+    height: 22px;
+
+    background-color: rgba(33, 33, 33, 0.2);
+  }
 }
 
-  // &::after {
-  //   content: '';
-  //   position: absolute;
-  //   top: 50%;
-  //   transform: translateY(-50%);
-  //   right: -10px;
-  //   width: 1px;
-  //   height: 22px;
-  //   background-color: rgba(33, 33, 33, 0.2);
-  // }
-}
 .mobile-menu__social-link {
     color: #2196F3;
   }
@@ -173,7 +174,7 @@
 .header-list__tel {
   color: #757575;
   display: flex;
-
+}
     
 
   &:hover,

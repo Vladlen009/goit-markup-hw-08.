@@ -19,6 +19,7 @@
     
     .navigation-link:hover .overlay,
     .navigation-link:focus .overlay {
-      transform: translateY(0%)
+      transform: translateY(0%);
+      overflow: scroll;
     }
 
