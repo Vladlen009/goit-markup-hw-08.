@@ -109,8 +109,6 @@
 
 .content-title {
   font-weight: 700;
-  font-size: 28px;
-  line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
     
@@ -211,7 +209,6 @@
 
   .content-list {
     display: flex;
-    justify-content: space-between;
   }
 }
 
@@ -220,11 +217,21 @@
     flex-wrap: wrap;
     gap: 30px;
   }
+
+  .content-title {
+    font-size: 28px;
+    line-height: 1.18;
+  }
 }
 
 @media screen and (min-width:1200px) {
-  .content-item {
-    flex-basis: calc((100% - 120px) / 4);
+  .content-title {
+    font-size: 36px;
+    line-height: 1.16;
+  }
+
+  .content-item:not(:last-child) {
+    margin-right: 30px;
   }
 }
 // img {
