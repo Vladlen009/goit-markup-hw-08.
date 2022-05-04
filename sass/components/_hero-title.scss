@@ -7,10 +7,19 @@
     letter-spacing: 0.06em;
     text-transform: uppercase;
 
-    color: white;
+    color: var(--color-title);
     margin: auto;
     width: 360px;
     margin-bottom: 30px;
+}
+
+@media screen and (min-width:1200px) {
+    .hero-title {
+    font-size: 44px;
+    line-height: 1.36;
+    width: 696px;
+    color: var( --color-title);
+  }
 }
 
 

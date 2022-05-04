@@ -108,10 +108,19 @@ img {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: white;
+  color: var(--color-title);
   margin: auto;
   width: 360px;
   margin-bottom: 30px;
+}
+
+@media screen and (min-width: 1200px) {
+  .hero-title {
+    font-size: 44px;
+    line-height: 1.36;
+    width: 696px;
+    color: var(--color-title);
+  }
 }
 
 .hero-btn {
@@ -756,6 +765,18 @@ img {
   color: #2196F3;
 }
 
+.header-list__mail,
+.header-list__tel {
+  color: #757575;
+  display: flex;
+}
+
+.header-list__mail:hover, .header-list__mailfocus,
+.header-list__tel:hover,
+.header-list__telfocus {
+  color: var(--color-hover);
+}
+
 @media screen and (min-width: 768px) {
   .mobile-menu {
     display: none;
@@ -782,6 +803,10 @@ img {
     position: relative;
     color: var(--main-color);
   }
+  .header-list__link {
+    padding-top: 32px;
+    padding-bottom: 28px;
+  }
   .header-list__link:hover, .header-list__link:focus {
     color: var(--color-hover);
   }
@@ -789,6 +814,7 @@ img {
     display: block;
     position: absolute;
     content: '';
+    bottom: -1px;
     width: 100%;
     height: 4px;
     background: var(--color-hover);
@@ -802,15 +828,6 @@ img {
     font-size: 12px;
     line-height: 1.16;
     letter-spacing: 0.02em;
-  }
-  .header-list__mail,
-  .header-list__tel {
-    color: #757575;
-  }
-  .header-list__mail:hover, .header-list__mailfocus,
-  .header-list__tel:hover,
-  .header-list__telfocus {
-    color: var(--color-hover);
   }
   .header-list__img-icon {
     fill: #757575;
@@ -840,14 +857,15 @@ img {
     align-items: center;
     margin-left: auto;
   }
-  .header-list__item-nav {
-    padding: 32px 0;
-  }
   .header-list__item-contact:not(:last-child) {
     margin-right: 30px;
   }
   .header-list__img-icon {
     margin-right: 10px;
+  }
+  .header-list__mail,
+  .header-list__tel {
+    padding: 32px 0;
   }
 }
 
@@ -888,7 +906,10 @@ img {
 
 @media screen and (min-width: 1200px) {
   .hero {
-    max-width: 1200px;
+    max-width: 1600px;
+    min-height: 600px;
+    padding-top: 200px;
+    padding-bottom: 200px;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../image2/Header-destore.jpg");
   }
 }
@@ -953,8 +974,12 @@ img {
     flex-basis: calc((100% - 120px) / 4);
   }
   .section-list__item:not(:last-child) {
-    margin-right: 50px;
+    margin-right: 30px;
     /*?*/
+  }
+  .section {
+    padding-top: 94px;
+    padding-bottom: 94px;
   }
 }
 
