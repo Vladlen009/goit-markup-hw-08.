@@ -1118,6 +1118,18 @@ img {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .content-title {
+    font-size: 36px;
+    line-height: 1.16;
+    margin-bottom: 50px;
+  }
+  .content {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+
 .client-title {
   font-weight: 700;
   text-align: center;

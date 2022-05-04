@@ -117,7 +117,6 @@
           </button>
         </div>
       </section>
-    </main>
       <section class="section">
         <div class="container">
           <h2 class="visually-hidden">Заголовок</h2>
@@ -207,7 +206,7 @@
                 <p class="work-item-text">Мобильные приложения</p>
               </div>
             </li>
-            <li class="work-list__item"">
+            <li class="work-list__item">
               <div class="work-item-img">
                 <img
                   src="./image/img3.jpg"
@@ -239,11 +238,11 @@
                   srcset="./image/Igor-mobile.jpg 1x, ./image/Igor-mobile@2x.jpg 2x"
                   media="(min-width: 320px)"
                   />
-              </picture>
-              <img
+                <img
                 src="./image/Content/Igor-mobile.jpg"
                 alt="Игорь Демьяненко"
               />
+            </picture>
               <div class="content-text">
                 <h3 class="content-after-title">Игорь Демьяненко</h3>
                 <p class="content-headline" lang="en">Product Designer</p>
@@ -292,11 +291,11 @@
                 <source srcset="./image/Content/Olga-mobile.jpg 1x, ./image/Content/Olga-mobile@2x.jpg 2x"
                 media="(min-width: 320px)"
                 />
-              </picture>
               <img
                 src="./image/Content/Olga-mobile.jpg"
                 alt="Ольга Репина"
               />
+            </picture>
               <div class="content-text">
                 <h3 class="content-after-title">Ольга Репина</h3>
                 <p class="content-headline" lang="en">Frontend Developer</p>
@@ -345,11 +344,11 @@
                 <source srcset="./image/Content/Niloky-mobile.jpg 1x, ./image/Content/Nikoly-mobile@2x.jpg 2x"
                 media="(min-width: 320px)"
                 />
-              </picture>
               <img
                 src="./image/Content/Nikoly-mobile.jpg"
                 alt="Николай Тарасов"
               />
+            </picture>
               <div class="content-text">
                 <h3 class="content-after-title">Николай Тарасов</h3>
                 <p class="content-headline" lang="en">Marketing</p>
@@ -398,11 +397,11 @@
                 <source srcset="./image/Content/Misha-mobile.jpg 1x, ./image/Content/Misha-mobile@2x.jpg 2x"
                 media="(min-width: 320px)"
                 />
-              </picture>
               <img
                 src="./image/Content/Misha-mobile.jpg"
                 alt="Михаил Ермаков"
               />
+            </picture>
               <div class="content-text">
                 <h3 class="content-after-title">Михаил Ермаков</h3>
                 <p class="content-headline" lang="en">UI Designer</p>
@@ -588,7 +587,7 @@
 
           <label class="contakt-form-field" for="name">Имя</label>
             <span class="contakt-form-imput-wrapper">
-              <input name="user_name" class="contakt-form-input" type="text" required
+              <input name="user_name" class="contakt-form-input" type="text" id="name" required
               minlength="3" maxlength="10" pattern="^[a-zA-Z]+$"/>
                 <svg class="contakt-form-input-icon" 
                   width="18" 
@@ -600,7 +599,7 @@
 
           <label class="contakt-form-field" for="phone">Телефон</label>
             <span class="contakt-form-imput-wrapper">
-              <input name="user_phone" class="contakt-form-input" type="tel"required/>
+              <input name="user_phone" class="contakt-form-input" type="tel" id="phone" required/>
                 <svg class="contakt-form-input-icon" 
                   width="18" 
                   height="18">
@@ -611,7 +610,7 @@
 
           <label class="contakt-form-field" for="email">Почта</label>
             <span class="contakt-form-imput-wrapper">
-              <input name="user_mail" class="contakt-form-input" type="tel"required/>
+              <input name="user_email" class="contakt-form-input" type="tel" id="email" required/>
                 <svg class="contakt-form-input-icon" 
                   width="18" 
                   height="18">
@@ -620,7 +619,7 @@
             </span>
 
           <label class="contakt-form-field" for="comments">Комментарий</label>
-            <textarea name="user_message" class="contakt-form-message" placeholder="Введите текст"></textarea>
+            <textarea name="user_message" class="contakt-form-message"  id="comments" placeholder="Введите текст"></textarea>
 
           <div class="contact-form-checkbox-wrapper">
             <input type="checkbox" name="accept-policy" class="chackbox-accept-policy visually-hidden"
