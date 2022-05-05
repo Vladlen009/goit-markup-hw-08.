@@ -37,7 +37,23 @@ display: flex;
 }
 
 
-@media screen and (max-width:767px) {
+
+@media screen and (max-width:480px){
+  .client-item {
+    width: 43.75%;
+  
+    &:nth-child(2n) {
+      margin-left: 6.25%;
+    }
+    
+    &:nth-child(-n+4) {
+    margin-bottom: 6.25%;
+    }
+  }
+}
+
+
+@media screen and (min-width:480px) and (max-width:767px) {
 
 
   .client-item {
