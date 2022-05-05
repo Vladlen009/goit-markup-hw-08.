@@ -265,6 +265,18 @@ img {
   margin-left: 10px;
 }
 
+@media screen and (max-width: 479px) {
+  .subscribe-input {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 1199px) {
+  .subscribe-input {
+    width: 450px;
+  }
+}
+
 @media screen and (max-width: 1199px) {
   .subscribe {
     display: flex;
@@ -273,8 +285,8 @@ img {
   .subscribe-name {
     text-align: center;
   }
-  .subscribe-btn {
-    margin-top: 20px;
+  .subscribe-input {
+    margin-bottom: 20px;
   }
 }
 
@@ -1251,7 +1263,7 @@ img {
   color: var(--main-color);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 479px) {
   .client-item {
     width: 43.75%;
   }
@@ -1263,7 +1275,7 @@ img {
   }
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 480px) and (max-width: 768px) {
   .client-item {
     width: 210px;
   }
