@@ -68,17 +68,12 @@
   .nav-list {
     display: flex;
     flex-wrap: wrap;
-
   }
-
-
-
-
 }
 
 
 // 768px+
-@media screen and (max-width:1199px) {
+@media screen and (min-width:768px) and (max-width:1199px) {
   .navigation-item {
     width: 354px;
   }

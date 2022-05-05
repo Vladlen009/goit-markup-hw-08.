@@ -150,9 +150,9 @@
   /*+*/.contact-form-checkbox-agreement {
     display: flex;
     justify-content: center;
+    align-items: center;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
+
     letter-spacing: 0.03em;
   
     color: var(--text-color);
@@ -194,11 +194,6 @@
  
   
   /*+*/.policy {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
     text-decoration-line: underline;
   
     color:var(--color-hover);
@@ -214,3 +209,16 @@
     overflow: hidden;
   }
 
+@media screen and (max-width:1199px) {
+  .contact-form-checkbox-agreement {
+    font-size: 12px;
+    line-height: 1.16;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .contact-form-checkbox-agreement {
+    font-size: 14px;
+    line-height: 1.71;
+  }
+}
