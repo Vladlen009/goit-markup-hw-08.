@@ -1,33 +1,24 @@
 .logo-header {
-    display: inline-block;
+  display: inline-block;
     
-    font-family: Raleway;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
   
-    color: var(--color-hover);
-  
-  }
+  color: var(--color-hover);
+}
 
 .logo-dark {
-    color: var(--main-color);
+  color: var(--main-color);
 }
 
-// // 1200px +
-// @media screen and (min-width:767px) {
-//   .logo-header {
-//     margin-right: 88px;
-//     padding-top: 26px;
-//     padding-bottom: 26px;
-// }
-// }
-@media screen and (max-width:767px) {
+@media screen and (max-width:767.98px) {
   .logo-header {
-  padding-top: 16px;
-  padding-bottom: 16px;
-}
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
 }
 
 // 1200px +
@@ -36,26 +27,6 @@
     margin-right: 93px;
     padding-top: 24px;
     padding-bottom: 24px;
+  }
 }
-}
-
-// .logo-header {
-//     display: inline-block;
-    
-//     font-family: Raleway;
-//     font-weight: 700;
-//     font-size: 26px;
-//     line-height: 1.19;
-//     letter-spacing: 0.03em;
-  
-//     color: var(--color-hover);
-  
-//     margin-right: 93px;
-//     padding-top: 24px;
-//     padding-bottom: 24px;
-// }
-  
-// .logo-dark {
-//     color: var(--main-color);
-// }
 

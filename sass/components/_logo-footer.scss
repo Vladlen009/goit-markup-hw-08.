@@ -3,7 +3,6 @@
   }
   
 .logo-footer {
-  /*display:inline-block;*/
   display: block;
     
   font-family: Raleway;
@@ -17,10 +16,10 @@
     
   margin-bottom: 20px;
   justify-content: center;
-  }
+}
  
-  @media screen and (max-width: 1199px) {
-    .logo-footer {
-      text-align: center;
+@media screen and (max-width: 1199.98px) {
+  .logo-footer {
+    text-align: center;
   } 
 }

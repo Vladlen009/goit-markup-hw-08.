@@ -1,17 +1,13 @@
-
 .header__container {
   display: flex;
   align-items: center;
 }
+
 .header{
   border: 1px solid #ECECEC;
 }
 
-
-
-
-
-@media screen and (max-width:767px) {
+@media screen and (max-width:767.98px) {
   .mobile-menu__nav-link.current {
     color: var(--color-hover);
   }
@@ -78,18 +74,8 @@
     &:focus .mobile-menu__close-icon {
         fill: var(--color-hover);
     }
-  }
-  
-  // .mobile-menu__container {
-  //   position: relative;
-  //   padding-top: 48px;
-  //   padding-bottom: 48px;
-  // }
-  
-  // .mobile-menu__nav-list {
-  //   padding-bottom: 306px;
-  // }
-  
+}
+
   .mobile-menu__nav-item {
     font-weight: 500;
     font-size: 40px;
@@ -185,20 +171,18 @@
     color: var(--color-hover);
   }
     
-  
-
-   .header-list__mail,
-   .header-list__tel {
-     color: #757575;
-     display: flex;
+  .header-list__mail,
+  .header-list__tel {
+    color: #757575;
+    display: flex;
 
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
-      &:hover,
-      &focus {
-       color: var(--color-hover);
+    &:hover,
+    &focus {
+      color: var(--color-hover);
     }
-   }
+  }
 }
 
 
@@ -232,7 +216,6 @@
     border-radius: 2px;
     margin-left: auto;
     margin-right: auto;
-
   }
 
   .header-list__item-nav {
@@ -252,7 +235,7 @@
 
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-    &{
+    & {
       padding-top: 32px;
       padding-bottom: 28px;
     }
@@ -276,41 +259,32 @@
        color: var(--color-hover);
     }
 
-     &:hover .header-list__img-icon,
-     &:focus .header-list__img-icon {
-       fill: var(--color-hover);
-    }
-}
-
-
-  
+    &:hover .header-list__img-icon,
+    &:focus .header-list__img-icon {
+      fill: var(--color-hover);
+   }
+ }
 
   .header-list__item-contact {
-    
     font-weight: 500;
     font-size: 12px;
     line-height: 1.16;
     letter-spacing: 0.02em;
   }
   
-  
-
   .header-list__img-icon {
     fill: #757575;
-  }
-  
+  } 
 }
 
-// 
-@media screen and (max-width:1199px) {
+
+@media screen and (max-width:1199.98px) {
   .mobile-menu {
     position: fixed;
   }
   
   .header {
     position: relative;
-    // padding-top: 16px;
-    // padding-bottom: 16px;
   }
 
   .header-list__item-contact:not(:last-child) {

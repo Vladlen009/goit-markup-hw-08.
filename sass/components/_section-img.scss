@@ -1,28 +1,27 @@
 .section-image-list {
-    display: flex;
-    justify-content: center;
-  }
+  display: flex;
+  justify-content: center;
+}
   
-  .section-image-item + .section-image-item {
-    margin-left: 30px;
-  }
+.section-image-item + .section-image-item {
+  margin-left: 30px;
+}
   
-  .section-img {
-    height: 120px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 4px;
+.section-img {
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
     
-    &:not(:last-child) {
-      margin-bottom: 30px;
-    }
-  
-  
-    background-color: var(--background-content);
-    color: var(--main-color);
+  &:not(:last-child) {
+    margin-bottom: 30px;
   }
   
-  .section-image-icon{
-    fill: currentColor;
-  }
+  background-color: var(--background-content);
+  color: var(--main-color);
+}
+  
+.section-image-icon{
+  fill: currentColor;
+}
