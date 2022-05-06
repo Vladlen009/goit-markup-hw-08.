@@ -58,6 +58,7 @@
 @media screen and (min-width:768px) and (max-width:1199.98px) {
   .navigation-item {
     width: 354px;
+    height: 100%;
   }
 
   .navigation-item:nth-child(2n) {
@@ -67,6 +68,18 @@
   .navigation-item:nth-child(-n+2) {
     margin-bottom: 30px;
   }
+  .nav-text {
+    height: 146px;
+    
+  }
+
+//   .nav-text > .navigation-title {
+//     flex-grow: 1;
+//   }
+
+//   .nav-text > .navigation-text {
+//     flex-grow: 1;
+//   }
 }
 
 // 768px+

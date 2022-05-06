@@ -1513,12 +1513,16 @@ img {
 @media screen and (min-width: 768px) and (max-width: 1199.98px) {
   .navigation-item {
     width: 354px;
+    height: 100%;
   }
   .navigation-item:nth-child(2n) {
     margin-left: 30px;
   }
   .navigation-item:nth-child(-n+2) {
     margin-bottom: 30px;
+  }
+  .nav-text {
+    height: 146px;
   }
 }
 
