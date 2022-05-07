@@ -194,7 +194,7 @@
   fill: currentColor;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767.98px) {
   .content-item:not(:last-child) {
       margin-bottom: 30px;
     }
@@ -207,7 +207,7 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1199.98px) {
   .content-item:nth-child(2n) {
     margin-left: 30px;
    }
@@ -217,7 +217,7 @@
    }
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1199.98px) {
    .content-title {
     font-size: 28px;
     line-height: 1.18;

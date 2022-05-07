@@ -72,6 +72,7 @@
             <use href="./image/icons.svg#icon-close-btn"></use>
           </svg>
         </button>
+
         <ul class="mobile-menu__nav-list list">
           <li class="mobile-menu__nav-item item">
             <a class="current mobile-menu__nav-link link" href="./index.html">Студия</a>
@@ -83,6 +84,7 @@
             <a class="mobile-menu__nav-link link" href="">Контакт</a>
           </li>
         </ul>
+
         <div>
         <ul class="mobile-menu__contact-list list">
           <li class="mobile-menu__contact-tel item">
@@ -588,7 +590,7 @@
           <form class="contakt-form">
 
           <label class="contakt-form-field" for="name">Имя</label>
-            <span class="contakt-form-imput-wrapper">
+            <div class="contakt-form-imput-wrapper">
               <input name="user_name" class="contakt-form-input" type="text" id="name" required
               minlength="3" maxlength="10" pattern="^[a-zA-Z]+$"/>
                 <svg class="contakt-form-input-icon" 
@@ -596,29 +598,29 @@
                   height="18">
                 <use href="./image/icons.svg#icon-person-name"></use>
                 </svg>
-            </span>
+              </div>
 
 
           <label class="contakt-form-field" for="phone">Телефон</label>
-            <span class="contakt-form-imput-wrapper">
+            <div class="contakt-form-imput-wrapper">
               <input name="user_phone" class="contakt-form-input" type="tel" id="phone" required/>
                 <svg class="contakt-form-input-icon" 
                   width="18" 
                   height="18">
                 <use href="./image/icons.svg#icon-form-imput-tel"></use>
                 </svg>
-            </span>
+              </div>
 
 
           <label class="contakt-form-field" for="email">Почта</label>
-            <span class="contakt-form-imput-wrapper">
+            <div class="contakt-form-imput-wrapper">
               <input name="user_email" class="contakt-form-input" type="tel" id="email" required/>
                 <svg class="contakt-form-input-icon" 
                   width="18" 
                   height="18">
                 <use href="./image/icons.svg#icon-form-imput-mail"></use>
                 </svg>
-            </span>
+              </div>
 
           <label class="contakt-form-field" for="comments">Комментарий</label>
             <textarea name="user_message" class="contakt-form-message"  id="comments" placeholder="Введите текст"></textarea>

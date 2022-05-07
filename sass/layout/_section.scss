@@ -1,6 +1,4 @@
 .section {
-  padding-top: 60px;
-  padding-bottom: 60px;
   background-color: var(--section-background);
 }
 
@@ -27,6 +25,8 @@
 
   // 0px - 767px
 @media screen and (max-width:767.98px) {
+
+
   .section-pretitle {
     text-align: center;
   }
@@ -56,6 +56,13 @@
    }
 }
 
+@media screen and (max-width:1199px) {
+  .section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
 @media screen and (min-width:1200px) {
   .section-list__item {
     width: 270px;
@@ -64,5 +71,9 @@
   .section-list__item:not(:last-child) {
     margin-right: 30px;
   }
-}
 
+  .section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}

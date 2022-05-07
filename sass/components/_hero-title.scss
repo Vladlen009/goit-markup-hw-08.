@@ -10,6 +10,11 @@
   margin: auto;
   margin-bottom: 30px;
 }
+@media screen and (min-width:768px) and (max-width:1199.98px) {
+  .hero-title {
+    width: 360px;
+  }
+}
 
 @media screen and (min-width:1200px) {
     .hero-title {
