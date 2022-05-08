@@ -111,7 +111,7 @@ img {
   .logo-header {
     margin-right: 93px;
     padding-top: 24px;
-    padding-bottom: 24px;
+    padding-bottom: 25px;
   }
 }
 
@@ -875,6 +875,7 @@ img {
   .header-list__link {
     padding-top: 32px;
     padding-bottom: 28px;
+    display: block;
   }
   .header-list__link:hover, .header-list__link:focus {
     color: var(--color-hover);
@@ -1060,12 +1061,12 @@ img {
 @media screen and (min-width: 768px) and (max-width: 1199.98px) {
   .section-list__item {
     width: 354px;
-  }
-  .section-list__item:nth-child(2n) {
+    margin-top: 30px;
     margin-left: 30px;
   }
-  .section-list__item:nth-child(-n+2) {
-    margin-bottom: 30px;
+  .section-list {
+    margin-top: -30px;
+    margin-left: -30px;
   }
 }
 
@@ -1232,11 +1233,13 @@ img {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199.98px) {
-  .content-item:nth-child(2n) {
+  .content-item {
+    margin-top: 30px;
     margin-left: 30px;
   }
-  .content-item:nth-child(-n+2) {
-    margin-bottom: 30px;
+  .content-list {
+    margin-top: -30px;
+    margin-left: -30px;
   }
 }
 
